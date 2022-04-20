@@ -21,7 +21,7 @@ As part of this assignment, please start with the following features first:
 Some Helpful Tips
 We can't increment something that doesn't exist! Here's how to check if a key exists in session yet:
 
-```
+```py
 if 'key_name' in request.session:
     print('key exists!')
 else:
@@ -30,7 +30,7 @@ else:
 
 If we want to get rid of what is currently stored in session:
 
-```
+```py
 del request.session['key_name']	# clears a specific key
 ```
 
